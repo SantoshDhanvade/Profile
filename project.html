@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Overview | Santosh Dhanvade</title>
+    <!-- External Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Link to your CSS files -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/project.css" />
+    
+    <!-- GitHub Markdown CSS (Makes the markdown look like GitHub) -->
+    <!-- FIX: Changed to github-markdown-light.min.css so text doesn't turn white in OS dark mode -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-light.min.css">
+    
+    <!-- Marked.js (Markdown Parser) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="brand">Santosh Dhanvade</div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#projects">Projects</a>
+                <a href="https://github.com/SantoshDhanvade" target="_blank">GitHub</a>
+            </nav>
+        </header>
+
+        <main class="project-detail-container">
+            <a href="index.html#projects" class="back-btn">← Back to Projects</a>
+            
+            <div class="project-detail-card">
+                <!-- This is where the Markdown README will be rendered -->
+                <div id="project-content" class="markdown-body">
+                    <p style="text-align: center; color: var(--muted);">Fetching project details from GitHub...</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Santosh Dhanvade. Built with Passion, HTML, CSS, and JS.</p>
+        </footer>
+    </div>
+
+    <!-- Link to your JavaScript file -->
+    <script src="Java_Script/project.js"></script>
+</body>
+</html>

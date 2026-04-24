@@ -33,12 +33,17 @@
                     improving my Java proficiency, and exploring full-stack web architectures.
                 </p>
                 <div class="badge-list">
-                    <span class="badge">C</span>
-                    <span class="badge">C++</span>
                     <span class="badge">Java</span>
-                    <span class="badge">Python</span>
+                    <span class="badge">Spring Boot</span>
+                    <span class="badge">React</span>
                     <span class="badge">JavaScript</span>
+                    <span class="badge">C++</span>
+                    <span class="badge">C</span>
+                    <span class="badge">Python</span>
+                    <span class="badge">SQL</span>
                     <span class="badge">Tailwind CSS</span>
+                    <span class="badge">DSA</span>
+                    <span class="badge">Git & GitHub</span>
                 </div>
             </div>
 
@@ -59,36 +64,65 @@
                     <strong>My Goal</strong>
                     <p>To become a proficient software engineer capable of building scalable applications. I'm actively working on my DSA skills and project portfolio.</p>
                 </div>
+                <div class="info-card">
+                    <strong>Education</strong>
+                    <ul style="margin: 0; padding-left: 20px; color: var(--muted); font-size: 0.95rem;">
+                        <li style="margin-bottom: 8px;"><strong>BSc CS:</strong> Balwant Collage, Vita.<br>--Completing in Aug 2026 (Appearing)</li>
+                        <li style="margin-bottom: 8px;"><strong>12th:</strong> Modern Education Society, Vita.</li>
+                        <li><strong>10th:</strong> Krantisinh Nana Patil Madhyamik Vidyalaya, Vita.</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <strong>Address</strong>
+                    <p>At/Po Bhalwani, Tal Khanapur, Dist Sangli, Maharashtra</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Connect & Stats Section -->
+        <section id="connect" class="section-card" style="margin-top:32px;">
+            <h2 class="section-title">Connect & Stats</h2>
+            <div class="about-grid">
+                <div class="info-card">
+                    <strong>Let's Connect</strong>
+                    <div class="social-links">
+                        <a href="mailto:santoshdhanvade009@gmail.com">📧 santoshdhanvade009@gmail.com</a>
+                        <a href="tel:+918010587220">📱 +91 8010587220</a>
+                        <a href="https://wa.me/918010587220" target="_blank">💬 WhatsApp</a>
+                        <a href="https://www.linkedin.com/in/santosh-dhanvade-a9404a2a7" target="_blank">💼 LinkedIn</a>
+                        <a href="https://github.com/SantoshDhanvade" target="_blank">💻 GitHub</a>
+                        <a href="https://x.com/Santosh_D_009" target="_blank">🐦 X (Twitter)</a>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <strong>LeetCode Statistics</strong>
+                    <div id="leetcode-stats" class="leetcode-grid">
+                        <p style="color: var(--muted); padding: 10px;">Fetching stats...</p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- Certificates Section -->
         <section id="certificates" class="section-card" style="margin-top:32px;">
             <h2 class="section-title">Certificates</h2>
-            <div class="certificates-grid">
-                <article class="card">
-                    <img src="Certificate/certificate1.jpg" alt="Web Dev" onerror="this.src='https://placehold.co/600x400/3b82f6/white?text=Web+Development'" />
-                    <div class="card-body">
-                        <h3 class="card-title">Frontend Mastery</h3>
-                        <p class="card-text">Comprehensive certification covering HTML5, CSS3, JavaScript, and modern design principles.</p>
-                        <button class="button-secondary">View Credential</button>
-                    </div>
-                </article>
-                <article class="card">
-                    <img src="Certificate/certificate2.jpg" alt="Java" onerror="this.src='https://placehold.co/600x400/2c3e50/white?text=Java+Programming'" />
-                    <div class="card-body">
-                        <h3 class="card-title">Java Programming</h3>
-                        <p class="card-text">Specialized training in Object-Oriented Programming, Data Structures, and Algorithmic logic.</p>
-                        <button class="button-secondary">View Credential</button>
-                    </div>
-                </article>
+            <div class="certificates-grid" id="certificates-container">
+                <!-- Certificates will be injected here via JavaScript -->
             </div>
         </section>
 
         <!-- Projects Section -->
         <section id="projects" class="section-card" style="margin-top:32px;">
-            <h2 class="section-title">Projects</h2>
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; margin-bottom: 24px;">
+                <h2 class="section-title" style="margin-bottom: 0;">Projects</h2>
+                <input type="text" id="project-search" placeholder="🔍 Search projects or tech..." class="project-search-input">
+            </div>
+            
+            <!-- GitHub Recent Activity Tracker -->
+            <p id="github-activity" style="color: var(--muted); font-size: 0.9rem; margin-bottom: 24px; padding: 12px; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0; display: inline-block;">Fetching latest activity...</p>
+
             <div class="projects-grid" id="projects-container">
+                <p style="color: var(--muted);">Fetching repositories from GitHub...</p>
                 <!-- Projects will be injected here via JavaScript -->
             </div>
         </section>
