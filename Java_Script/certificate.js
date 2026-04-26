@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
             desc: "In-depth specialization in Java's Collection Framework and related APIs.", 
             img: "Certificate/certificate4.jpg",
             issuedBy: "MySirG.com",
-            date: "2024"
+            date: "Appring may 2026"
         },
         { 
             id: 5, 
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
             desc: "Advanced problem-solving course mastering 15 essential algorithmic patterns.", 
             img: "Certificate/certificate5.jpg",
             issuedBy: "MySirG.com",
-            date: "2024"
+            date: "Appring may 2026"
         }
     ];
 
