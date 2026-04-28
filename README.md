@@ -5,7 +5,7 @@
 I'm a CS Student who loves digging into how computers actually work!
 
 ### Skills & Technologies
-- **Languages:** C, C++, Java, Python, JavaScript
+- **Languages:** C, C++, Java, Python, JavaScript, c#
 - **Web Development:** React, HTML, CSS
 - **Databases:** MySQL, SQL, JDBC/ODBC
 - **Current Goal:** Mastering Advanced DSA 🧠
