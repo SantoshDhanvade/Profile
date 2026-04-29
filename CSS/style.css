@@ -63,6 +63,24 @@ nav a:hover {
     color: var(--accent);
 }
 
+/* GitHub Link with Icon */
+nav a.github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--primary);
+    background: var(--surface);
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+}
+
+nav a.github-link:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
 /* Cards & Layout */
 .hero-card,
 .section-card {

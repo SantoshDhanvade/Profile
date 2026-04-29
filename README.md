@@ -41,6 +41,10 @@ Profil/
 - **Styling:** Custom CSS with responsive grid layouts
 - **Interactivity:** Vanilla JavaScript for DOM manipulation
 
+## ✨ Visuals
+
+![alt text](santoshdhanvade.github.io_Profile_.png)
+
 ## 📖 Usage
 
 1. Clone the repository:
